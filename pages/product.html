@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Link AOS's CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<!-- Animista CSS -->
+	<link rel="stylesheet" href="../css/animista.css" />
+
+    <link rel="stylesheet" href="../css/share.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+</head>
+<body>
+    <!-- desktop-menu -->
+    <section class="desktop-menu desktop-switch">
+		<div class="bg"></div>
+		<div class="overlay"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 align-items-center">
+					<a href="../index.html">
+						<img src="../img/logo.svg" alt="" class="img-logo scale-up-center" />
+					</a>
+				</div>
+				<div class="col-md-9 d-flex justify-content-end align-items-center">
+					<ul class="desktop-menu-style d-flex align-items-center">
+						<li><a href="story.html" class="link">品牌故事</a></li>
+						<li><a href="product.html" class="link">商品一覽</a></li>
+						<li><a href="news.html" class="link">最新消息</a></li>
+						<li><a href="FAQ.html" class="link">常見問題</a></li>
+						<li><a href="contact.html" class="link">聯絡我們</a></li>
+						<li><a href="#" class="btn">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </section>
+
+    <!-- mobile-menu -->
+    <section class="mobile-menu mobile-switch">
+		<div class="bg"></div>
+		<div class="overlay"></div>
+		<div class="container-fluid">
+			<div class="row">
+			<!-- logo -->
+                <div class="col-6 d-flex align-items-center">
+                    <a href="../index.html">
+                    <img src="../img/logo.svg" alt="" class="img-logo img-fluid scale-up-center" />
+                    </a>
+                </div>
+                <!-- hamburger -->
+                <div class="col-6 d-flex align-items-center justify-content-end">
+                    <a href="#" class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </a>
+                </div>
+                <!-- hamburger-menu -->
+                <div class="mobile-menu-toggle">
+                    <ul class="mobile-menu-style">
+                        <li><a href="story.html" class="link">品牌故事</a></li>
+						<li><a href="product.html" class="link">商品一覽</a></li>
+						<li><a href="news.html" class="link">最新消息</a></li>
+						<li><a href="FAQ.html" class="link">常見問題</a></li>
+						<li><a href="contact.html" class="link">聯絡我們</a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+    </section>
+
+	<!-- page banner + breadcrumb -->
+    <section class="page-banner d-flex align-items-center justify-content-center">
+        <img src="../img/product-banner.webp" alt="" class="img-fluid">
+		<div class="overlay"></div>
+        <div class="page-banner-text">
+            <h1 class="tracking-in-contract">Products</h1>
+            <p>產品一覽</p>
+        </div>
+        <div class="breadcrumb-wrapper">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="../index.html">首頁</a> |
+                    <a href="#">產品一覽</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- menu -->
+	<section class="menu">
+		<div class="info-title">
+			<i class="bi bi-stars"></i>
+			<h2 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">精選菜單</h2>
+			<i class="bi bi-stars"></i>
+		</div>
+		<div class="menu-buttons">
+			<button data-category="main" class="active">主餐</button>
+			<button data-category="side">配菜</button>
+			<button data-category="drink">飲品</button>
+			<button data-category="dessert">甜點</button>
+		</div>
+
+		<div class="menu-container">
+			<!-- 主餐 -->
+			<div class="menu-group main active">
+				<!-- 主餐卡片（共6道） -->
+				<div class="menu-card">
+					<img src="../img/ribeye.webp" alt="肋眼牛排" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>美國Prime肋眼牛排</h3>
+						<p>油花均勻、風味濃郁的經典部位，搭配香煎蒜片與特製醬汁。</p>
+						<span>NT$980</span>
+					</div>
+				</div>
+				<div class="menu-card">
+					<img src="../img/wagyu.webp" alt="和牛紐約客" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>澳洲M9和牛紐約客</h3>
+						<p>油脂豐富、入口即化的極致饗宴，採濕式熟成保留肉汁。</p>
+						<span>NT$1680</span>
+					</div>
+				</div>
+				<div class="menu-card">
+					<img src="../img/tbone.webp" alt="乾式熟成T骨" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>熟成乾式T骨牛排</h3>
+						<p>28天乾式熟成，結合菲力與紐約客雙重口感的經典之選。</p>
+						<span>NT$1480</span>
+					</div>
+				</div>
+				<div class="menu-card">
+					<img src="../img/enderloin.webp" alt="USDA Prime菲力牛排" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>USDA Prime菲力牛排</h3>
+						<p>最柔嫩的部位，油脂少、肉質細膩，適合喜歡清爽口感的你。</p>
+						<span>NT$1280</span>
+					</div>
+				</div>
+				<div class="menu-card">
+					<img src="../img/ibericoribeye.webp" alt="西班牙伊比利豬肋眼" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>西班牙伊比利豬肋眼</h3>
+						<p>擁有獨特堅果香氣與油花，嚼感飽滿。</p>
+						<span>NT$1380</span>
+					</div>
+				</div>
+				<div class="menu-card">
+					<img src="../img/shortrib.webp" alt="美國熟成帶骨牛小排" class="img-fluid">
+					<div class="menu-card-content">
+						<h3>美國熟成帶骨牛小排</h3>
+						<p>28天濕式熟成，濃郁肉香、飽滿口感。</p>
+						<span>NT$1580</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- 配菜 -->
+			<div class="menu-group side">
+				<div class="menu-card">
+					<img src="../img/salad.webp" alt="田園沙拉" class="img-fluid">
+					<h3>田園沙拉</h3>
+					<p>新鮮生菜與蜂蜜芥末醬完美搭配。</p>
+					<span>NT$180</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/onion-soup.webp" alt="洋蔥濃湯" class="img-fluid">
+					<h3>洋蔥濃湯</h3>
+					<p>慢炒洋蔥與牛骨湯底濃郁香甜。</p>
+					<span>NT$150</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/fries.webp" alt="香料脆薯" class="img-fluid">
+					<h3>香料脆薯</h3>
+					<p>撒上迷迭香與松露鹽，酥脆可口。</p>
+					<span>NT$120</span>
+				</div>
+			</div>
+
+			<!-- 飲品 -->
+			<div class="menu-group drink">
+				<div class="menu-card">
+					<img src="../img/redwine.webp" alt="紅酒搭配" class="img-fluid">
+					<h3>紅酒搭配</h3>
+					<p>主廚推薦紅酒，完美搭配牛排風味。</p>
+					<span>NT$500</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/juice.webp" alt="鮮榨柳橙汁" class="img-fluid">
+					<h3>鮮榨柳橙汁</h3>
+					<p>每日現榨，無糖純天然。</p>
+					<span>NT$120</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/coffee.webp" alt="義式濃縮咖啡" class="img-fluid">
+					<h3>義式濃縮咖啡</h3>
+					<p>濃厚香氣，收尾最佳選擇。</p>
+					<span>NT$160</span>
+				</div>
+			</div>
+
+			<!-- 甜點 -->
+			<div class="menu-group dessert">
+				<div class="menu-card">
+					<img src="../img/cake.webp" alt="巧克力熔岩蛋糕" class="img-fluid">
+					<h3>巧克力熔岩蛋糕</h3>
+					<p>外酥內流心，搭配香草冰淇淋。</p>
+					<span>NT$180</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/pudding.webp" alt="手工布丁" class="img-fluid">
+					<h3>手工布丁</h3>
+					<p>焦糖香氣濃郁，滑順入口。</p>
+					<span>NT$130</span>
+				</div>
+				<div class="menu-card">
+					<img src="../img/cheesecake.webp" alt="藍莓起司蛋糕" class="img-fluid">
+					<h3>藍莓起司蛋糕</h3>
+					<p>濃郁奶香與酸甜藍莓完美平衡。</p>
+					<span>NT$160</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 d-flex justify-content-space-between">
+					<a href="../index.html" class="logo-link">
+						<img src="../img/logo.svg" alt="" class="img-logo" />
+					</a>
+					<div class="footer-menu">
+						<h4>MENU</h4>
+						<ul class="footer-menu-style">
+							<li><a href="story.html" class="link">品牌故事</a></li>
+                            <li><a href="product.html" class="link">商品一覽</a></li>
+                            <li><a href="news.html" class="link">最新消息</a></li>
+                            <li><a href="FAQ.html" class="link">常見問題</a></li>
+                            <li><a href="contact.html" class="link">聯絡我們</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex resize-justify-content">
+					<div class="footer-contact">
+						<h4>CONTACT</h4>
+						<p>TEL:<a href="tel:+886-0-0000000"> +886-0-0000000</a></p>
+						<p>E-MAIL:<a href="mailto:XXXXXX@gmail.com"> XXXXXX@gmail.com</a></p>
+						<p>地址：<a href="https://maps.app.goo.gl/i9cV7np5BpGKWaA29" target="_blank">台南市北區西門路四段533巷77號</a></p>
+					</div>
+					<div class="footer-social">
+						<h4>SOCIAL</h4>
+						<a href=""><i class="bi bi-facebook"></i></a>
+						<a href=""><i class="bi bi-twitter"></i></a>
+						<a href=""><i class="bi bi-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<p>Copyright 2025 © 郭紹琦. All right reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<button id="backToTop">↑</button>
+
+	<!-- Link AOS's JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();  // 初始化 AOS
+    </script>
+
+	<script src="../main.js"></script>
+</body>
+</html>
