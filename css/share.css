@@ -569,7 +569,7 @@ footer .copyright {
 
 @media (max-width:768px) {
     #backToTop {
-        padding: 10px 20px;
+        padding: 10px 15px;
         bottom: 80px;
         right: 30px;
     }
