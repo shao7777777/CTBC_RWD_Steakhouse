@@ -6,8 +6,8 @@
 核心技術與設計理念
 --
 1. 技術棧 (Tech Stack)
- - 語言： HTML5, CSS3, 少量 JavaScript (用於 FAQ 內容開合)
- - 框架/佈局： Bootstrap 5 (元件與排版輔助), CSS Grid 與 Flexbox 混合佈局 (用於菜單卡片排版)
+ - 語言： HTML5, CSS3, 少量 JavaScript
+ - 框架/佈局： Bootstrap 5 (元件與排版輔助), CSS Grid 與 Flexbox 混合佈局
 
 2. 設計理念 (Design Philosophy)
  - **品牌故事與情感連結**： 介面設計旨在傳達牛排館對頂級食材的用心與品牌故事。透過精心設計的版面與配色，為顧客帶來視覺與心靈的雙重滿足，強化品牌的獨特性。
